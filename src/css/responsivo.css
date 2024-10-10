@@ -1,0 +1,56 @@
+@media (max-width:1190px) {
+    body {
+        background: url(../images/bg-mobile.svg)center center no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cabecalho .logo {
+        max-width: 250px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    .cabecalho .logo {
+        margin-top: 20px;
+    }
+
+    img {
+        display: block;
+        padding-top: 24px;
+    }
+
+    .conteudo-principal .info .titulo {
+        font-size: 2.5rem;
+    }
+
+    .conteudo-principal .info p {
+        font-size: 1.5rem;
+        width: 250px;
+    }
+
+    .info .btn-register a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .social {
+        margin: 19px 69px;
+        padding-bottom: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
