@@ -1,4 +1,4 @@
-@media (max-width:1190px) {
+@media (max-width:600px) {
     body {
         background: url(../images/bg-mobile.svg)center center no-repeat;
         background-color: hsl(257, 40%, 49%);
@@ -6,51 +6,136 @@
     }
 
     .cabecalho {
+        height: 150px;
+        padding-left: 20px;
         display: flex;
-        justify-content: center;
         align-items: center;
     }
 
     .cabecalho .logo {
-        max-width: 250px;
+        width: 150px;
+        height: 20px;
     }
 
     .conteudo-principal {
         flex-direction: column;
-        margin: 20px;
+        align-items: center;
+        padding: 20px;
     }
 
-    .cabecalho .logo {
-        margin-top: 20px;
+    .conteudo-principal .img-principal img {
+        width: 100%;
+        max-width: 500px;
     }
 
-    img {
-        display: block;
-        padding-top: 24px;
+    .conteudo-principal .info {
+        margin-left: 0;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .conteudo-principal .info .titulo {
         font-size: 2.5rem;
+        width: auto;
+        max-width: 320px;
     }
 
-    .conteudo-principal .info p {
+    .conteudo-principal .into p {
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 20px;
+    }
+
+    .footer {
+        justify-content: center;
+        padding-right: 0;
+        padding-top: 5px;
+        padding-bottom: 20px;
+
+    }
+
+    .footer ul {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .footer ul li {
         font-size: 1.5rem;
-        width: 250px;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background: url(../images/bg-mobile.svg)center center no-repeat;
+        background-color: hsl(257, 40%, 49%);
+        background-size: cover;
     }
 
-    .info .btn-register a {
+    .cabecalho {
+        height: 150px;
+        padding-left: 20px;
         display: flex;
         align-items: center;
-        justify-content: center;
     }
 
-    .social {
-        margin: 19px 69px;
-        padding-bottom: 50px;
-        display: flex;
+    .cabecalho .logo {
+        width: 150px;
+        height: 20px;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
+        padding: 20px;
     }
 
+    .conteudo-principal .img-principal img {
+        width: 100%;
+        max-width: 500px;
+    }
 
+    .conteudo-principal .info {
+        margin-left: 0;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo-principal .info .titulo {
+        font-size: 2.5rem;
+        width: auto;
+        max-width: 320px;
+    }
+
+    .conteudo-principal .into p {
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 20px;
+    }
+
+    .footer {
+        justify-content: center;
+        padding-right: 0;
+        padding-top: 5px;
+        padding-bottom: 20px;
+
+    }
+
+    .footer ul {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+    .footer ul li {
+        font-size: 1.5rem;
+        margin-left: 10px;
+    }
 }
